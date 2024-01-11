@@ -1,16 +1,18 @@
-import './App.css';
 import React from 'react';
-import Header from "./Components/Header";
 import Nav from "./Components/Nav";
-import Main from "./Components/Main";
+import Hero from "./Components/Hero";
+import Highlights from './Components/Highlights';
+import About from "./Components/About";
 import Footer from "./Components/Footer";
+import "./styles.css";
 
 function App() {
   return (
     <>
-      <Header/>
       <Nav/>
-      <Main/>
+      <Hero/>
+      <Highlights/>
+      <About/>
       <Footer/>
     </>
   );
