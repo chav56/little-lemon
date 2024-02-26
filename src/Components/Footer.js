@@ -12,9 +12,6 @@ function Footer() {
             <li>Menu</li>
             <li>Reservations</li>
             <li>Order online</li>
-            <li>Address</li>
-            <li>Phone address</li>
-            <li>Email</li>
             </ul>
                 <ul className="footer-menu-ul2">
                 <h2 className='footer-h2'>Contact</h2>
