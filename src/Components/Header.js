@@ -1,4 +1,5 @@
 import React from 'react';
+//import { Link } from "react-router-dom";
 import restaurantfood from "../assets/restaurantfood.jpg";
 
 const Header = () => {
@@ -10,7 +11,9 @@ const Header = () => {
           <h2 className='h2-txt'>Chicago</h2>
           <p className="header-txt">We are a family owned Mediterranean restaurant, focused
            on traditional recipes served with a modern twist.</p>
+           {/* <Link to="/bookings"> */}
            <button className="reserve">Reserve A Table</button>
+          {/* </Link> */}
           <img className="header-img" src={restaurantfood} alt='restaurant food'></img>
           </div>
         </section>
